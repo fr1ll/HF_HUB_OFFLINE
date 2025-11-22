@@ -10,7 +10,7 @@ dependencies = [
     "pytest-socket==0.7.0",
     "torch==2.9.1+cpu",
     "torchvision==0.24.1+cpu",
-    "transformers @ git+https://github.com/huggingface/transformers.git",
+    "transformers @ git+https://github.com/huggingface/transformers.git@main",
 ]
 
 [tool.uv.sources]
