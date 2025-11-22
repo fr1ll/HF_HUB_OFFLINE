@@ -9,3 +9,5 @@ that I was setting HF_HUB_OFFLINE = 1 *after* importing transformers,
 when it needs to be set before.
 Update part 2: also works with same library versions I tested in main
 
+Detailed here:
+https://github.com/huggingface/transformers/pull/42308
