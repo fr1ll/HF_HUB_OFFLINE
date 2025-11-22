@@ -5,12 +5,12 @@ description = "Reproduce HF_HUB_OFFLINE not avoiding network calls if cache is n
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "huggingface-hub==1.1.5",
+    "huggingface-hub==0.36.0",
     "pillow>=12.0.0",
     "pytest-socket==0.7.0",
     "torch==2.9.1+cpu",
     "torchvision==0.24.1+cpu",
-    "transformers @ git+https://github.com/huggingface/transformers.git@main",
+    "transformers==4.57.1",
 ]
 
 [tool.uv.sources]
